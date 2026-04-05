@@ -68,7 +68,7 @@ public class WebScraperFinal {
             csvWriter.close();
 
             System.out.println("\nData saved to products.csv");
-            System.out.println("Total products scraped: " + count);
+            System.out.println("Total Products scraped: " + count);
 
         } catch (Exception e) {
             System.out.println("Error occurred while scraping!");
