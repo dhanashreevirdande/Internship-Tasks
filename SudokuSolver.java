@@ -73,7 +73,7 @@ public class SudokuSolver {
         };
 
         if (solve(board)) {
-            System.out.println("Solved Sudoku:");
+            System.out.println("Solved Sudoku :-");
             printBoard(board);
         } else {
             System.out.println("No solution exists.");
