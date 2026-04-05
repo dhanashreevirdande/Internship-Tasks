@@ -4,7 +4,7 @@ public class TemperatureConverter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter temperature value: ");
+        System.out.print("Enter Temperature value: ");
         double value = sc.nextDouble();
 
         System.out.print("Enter unit (C/F/K): ");
