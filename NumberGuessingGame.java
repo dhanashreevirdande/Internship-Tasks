@@ -18,10 +18,10 @@ public class NumberGuessingGame {
             attempts++;
 
             if (guess > number) {
-                System.out.println("Too high!");
+                System.out.println("Its Too high!");
             } 
             else if (guess < number) {
-                System.out.println("Too low!");
+                System.out.println("Its Too low!");
             } 
             else {
                 System.out.println("Correct! You guessed it in " + attempts + " attempts.");
